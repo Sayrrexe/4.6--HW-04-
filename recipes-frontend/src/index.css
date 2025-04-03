@@ -1,0 +1,68 @@
+/* Общий фон и базовые стили */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Навигация */
+.navbar {
+  background-color: #1a1a1a;
+  padding: 10px 20px;
+  text-align: center;
+}
+.nav-link {
+  color: #ff073a; /* неоновый красный */
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 0 15px;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Контейнер и заголовки */
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff073a;
+  text-shadow: 0 0 10px #ff073a;
+}
+
+/* Карточки */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: #1a1a1a;
+  border: 2px solid #ff073a;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 280px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff073a;
+}
+
+/* Описание рецепта */
+.description {
+  margin-top: 15px;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
